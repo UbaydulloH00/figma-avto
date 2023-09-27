@@ -1,0 +1,48 @@
+/* golos-text-regular - cyrillic-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Golos Text';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/golos-text-v4-cyrillic-ext-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* golos-text-500 - cyrillic-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Golos Text';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/golos-text-v4-cyrillic-ext-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* golos-text-600 - cyrillic-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Golos Text';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/golos-text-v4-cyrillic-ext-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* golos-text-700 - cyrillic-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Golos Text';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/golos-text-v4-cyrillic-ext-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* golos-text-800 - cyrillic-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Golos Text';
+  font-style: normal;
+  font-weight: 800;
+  src: url('../fonts/golos-text-v4-cyrillic-ext-800.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* golos-text-900 - cyrillic-ext */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Golos Text';
+  font-style: normal;
+  font-weight: 900;
+  src: url('../fonts/golos-text-v4-cyrillic-ext-900.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}

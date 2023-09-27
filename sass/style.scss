@@ -3,6 +3,369 @@
     margin: 0%;
     box-sizing: border-box;
 }
+body{
+    font-family: 'Golos Text';
+}
 .container{
+    width: 100%;
+    max-width: 1410px;
+    margin: 0% auto;
+}
+.header__container{
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .header__logo{
+        display: flex;
+        gap: 30px;
+        align-items: center;
+        .header__logo-button{
+            display: flex;
+            width: 180px;
+            height: 54px;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            flex-shrink: 0;
+            border-radius: 12px;
+            background:  #F56E1E;
+            a{
+                text-decoration: none;
+                color: #FCFCFC;
+                font-family: 'Golos';
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 28px; /* 155.556% */
+            }
+            i{
+                color: white;
+            }
+        }
+    }
+    .header__search{
+        display: flex;
+        width: 708px;
+        height: 54px;
+        padding: 12px;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 12px;
+        border: 1px solid  #A0A3BC;
+        background: #FFF;
+        input{
+            width: 90%;
+            border:none;
+            outline: none;
+        }
+        span{
+            i{
+                color: black;
+            }
+        }
+    }
+    .header__menu{
+        display: flex;
+        gap: 30px;
+        p{
+            color: var(--Gray-04, #6E7191);
+            font-family: "Golos";
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 16px; /* 133.333% */
+        }
+
+        .header__menu-korzinka{
+            a{
+                text-decoration: none;
+                display: flex;
+                flex-direction: column;
+                gap: 1px;
+                img{
+                    width: 30px;
+                    height: 30px;
+                }
+            }
+        } 
+        .header__menu-saqlash{
+            a{
+                text-decoration: none;
+                display: flex;
+                flex-direction: column;
+                gap: 4px;
+                img{
+                    width: 25px;
+                    height: 27px;
+                }
+            }
+        }
+        .header__menu-profil{
+            a{
+                text-decoration: none;
+                display: flex;
+                flex-direction: column;
+                gap: 4px;
+                img{
+                    width: 27px;
+                    height: 27px;
+                }
+            }
+        }
+    }
+}
+.header__main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .header__main-button{
+        display: flex;
+        gap: 90px;
+        .header__main-button-1{
+            border: none;
+            display: flex;
+            width: 174px;
+            padding: 8px 8px 9px 8px;
+            justify-content: center;
+            align-items: center;
+            gap: 4px;      
+            border-radius: 40px;
+            background:  #F1F1F1;    
+            color: #A0A3BD;
+            font-family: "Golos";
+            font-size: 9px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;  
+        }
+        .header__main-button-ru{
+            display: flex;
+            gap: 10px;
+            align-items:center;
+            span{
+                width: 20px;
+                height: 20px;
+                border-radius:50%;
+                border: 1px solid #6E7191;
+            }
+        }
+       
+    }
+    .header__main-menu{
+        display: flex;
+        gap: 32.5px;
+        a{
+            text-decoration: none;
+            color:  #6E7191;
+            font-family: "Golos";
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 30px; /* 214.286% */
+        }
+    }
+    .header__main-contact{
+        display: flex;
+        align-items: center;
+        gap: 24px;
+        p{
+            color:  #F56E1E;
+            font-family: 'Golos';
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 30px; /* 187.5% */
+        }
+        .header__main-contact-button{
+            border: none;
+            display: flex;
+            width: 154px;
+            padding-left: 12px;
+            padding-right: 12px;
+            align-items: center;
+            gap: 8px;
+            border-radius: 8px;
+            background: #F56E1E;
+            p{
+                color: #FFF;
+                font-size: 14px;
+            }
+        }
+    }
+}
+.glavniy {
+    margin-top: 20px;
+    width: 100%;
+    .glavniy__st{
+        display: flex;
+    }
+    p{
+        color:  #6E7191;
+
+        /* breadcrumbs */
+        font-family: 'Golos';
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+   span{
+        color: #F56E1E;
+        /* breadcrumbs */
+        font-family: 'Golos';
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+   }
+   h1{
+
+    color:  #4E4B66;
+
+    /* H1 */
+    font-family: 'Golos';
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 38px; /* 111.765% */
+   }
+}
+.about{
+    display: flex;
+    gap: 30px;
     
+    .about__page{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    h4{
+        color: #6E7191;
+
+/* body 22 */
+        font-family: 'Golos';
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 36px; /* 163.636% */
+    }
+    h5{
+        color:  #6E7191;
+        font-family: 'Golos';
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 22px; /* 122.222% */
+    }
+}
+.header__breds{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 120px;
+    h3{
+        
+        color: #6E7191;
+
+        /* H2 */
+        font-family: 'Golos';
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 36px; /* 112.5% */
+    }
+    .header__breds-child{
+        display: flex;
+        gap: 30px;
+        a{
+            text-decoration: none;
+
+        }
+        
+        section{
+            display: flex;
+            width: 330px;
+            height: 90px;
+            justify-content: center;
+            align-items: center;
+            gap: 12px;
+            flex-shrink: 0;
+        }
+        .ozon{
+           
+            border-radius: 12px;
+            background: #1F69FB;
+            img{
+                width: 138px;
+                height: 30px;
+            }
+        }
+        .avtodog{
+            
+            border-radius: 12px;
+            background: #CD242F;
+            img{
+                width: 180px;
+               height: 58px;
+            }
+        }
+        .emax{
+            
+            border-radius: 12px;
+            background: #FDBF32;
+            img{
+                width: 170px;
+                height: 32px;
+            }
+        }.avtopolter{
+            
+            border-radius: 12px;
+            background: #FD3249;
+            img{
+                width: 180px;
+            height: 42px;
+            }
+        }
+        
+    }   
+    .header__breds-child1{
+        display: flex;
+        gap: 30px;
+        section{
+            display: flex;
+            width: 330px;
+            height: 90px;
+            justify-content: center;
+            align-items: center;
+            gap: 12px;
+            flex-shrink: 0;
+        }
+        .wild{
+           
+            border-radius: 12px;
+            background: linear-gradient(48deg, #CB11AB 8.29%, #481173 148.38%);
+            img{
+                width: 220px;
+                height: 26px;
+            }
+        }
+        .avto-last{
+           img{
+            width: 220px;
+            height: 26.26px;
+           }
+        }
+        a{
+            text-decoration: none;
+
+        }
+        
+    }
+}   
+@media screen and (max-width:1400px) {
+    .container{
+        max-width: 1200px;
+        margin: 0% auto;
+    }
 }
