@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 10px;
+}
+
 body {
   font-family: "Golos Text";
 }
@@ -40,7 +44,7 @@ body {
   text-decoration: none;
   color: #FCFCFC;
   font-family: "Golos";
-  font-size: 18px;
+  font-size: 1.8rem;
   font-style: normal;
   font-weight: 600;
   line-height: 28px; /* 155.556% */
@@ -74,7 +78,7 @@ body {
 .header__container .header__menu p {
   color: var(--Gray-04, #6E7191);
   font-family: "Golos";
-  font-size: 12px;
+  font-size: 1.2rem;
   font-style: normal;
   font-weight: 400;
   line-height: 16px; /* 133.333% */
@@ -131,7 +135,7 @@ body {
   background: #F1F1F1;
   color: #A0A3BD;
   font-family: "Golos";
-  font-size: 9px;
+  font-size: 0.9rem;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -155,7 +159,7 @@ body {
   text-decoration: none;
   color: #6E7191;
   font-family: "Golos";
-  font-size: 14px;
+  font-size: 1.4rem;
   font-style: normal;
   font-weight: 700;
   line-height: 30px; /* 214.286% */
@@ -168,7 +172,7 @@ body {
 .header__main .header__main-contact p {
   color: #F56E1E;
   font-family: "Golos";
-  font-size: 16px;
+  font-size: 1.6rem;
   font-style: normal;
   font-weight: 600;
   line-height: 30px; /* 187.5% */
@@ -200,7 +204,7 @@ body {
   color: #6E7191;
   /* breadcrumbs */
   font-family: "Golos";
-  font-size: 12px;
+  font-size: 1.2rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -209,7 +213,7 @@ body {
   color: #F56E1E;
   /* breadcrumbs */
   font-family: "Golos";
-  font-size: 12px;
+  font-size: 1.2rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -218,7 +222,7 @@ body {
   color: #4E4B66;
   /* H1 */
   font-family: "Golos";
-  font-size: 34px;
+  font-size: 3.4rem;
   font-style: normal;
   font-weight: 700;
   line-height: 38px; /* 111.765% */
@@ -237,7 +241,7 @@ body {
   color: #6E7191;
   /* body 22 */
   font-family: "Golos";
-  font-size: 22px;
+  font-size: 2.2rem;
   font-style: normal;
   font-weight: 400;
   line-height: 36px; /* 163.636% */
@@ -245,7 +249,7 @@ body {
 .about h5 {
   color: #6E7191;
   font-family: "Golos";
-  font-size: 18px;
+  font-size: 1.8rem;
   font-style: normal;
   font-weight: 400;
   line-height: 22px; /* 122.222% */
@@ -261,7 +265,7 @@ body {
   color: #6E7191;
   /* H2 */
   font-family: "Golos";
-  font-size: 32px;
+  font-size: 3.2rem;
   font-style: normal;
   font-weight: 700;
   line-height: 36px; /* 112.5% */
@@ -275,7 +279,7 @@ body {
 }
 .header__breds .header__breds-child section {
   display: flex;
-  width: 330px;
+  width: 23.4%;
   height: 90px;
   justify-content: center;
   align-items: center;
@@ -287,7 +291,7 @@ body {
   background: #1F69FB;
 }
 .header__breds .header__breds-child .ozon img {
-  width: 138px;
+  width: 41.82%;
   height: 30px;
 }
 .header__breds .header__breds-child .avtodog {
@@ -295,7 +299,7 @@ body {
   background: #CD242F;
 }
 .header__breds .header__breds-child .avtodog img {
-  width: 180px;
+  width: 54.55%;
   height: 58px;
 }
 .header__breds .header__breds-child .emax {
@@ -303,7 +307,7 @@ body {
   background: #FDBF32;
 }
 .header__breds .header__breds-child .emax img {
-  width: 170px;
+  width: 51.51%;
   height: 32px;
 }
 .header__breds .header__breds-child .avtopolter {
@@ -311,7 +315,7 @@ body {
   background: #FD3249;
 }
 .header__breds .header__breds-child .avtopolter img {
-  width: 180px;
+  width: 54.54%;
   height: 42px;
 }
 .header__breds .header__breds-child1 {
@@ -320,7 +324,7 @@ body {
 }
 .header__breds .header__breds-child1 section {
   display: flex;
-  width: 330px;
+  width: 23.4%;
   height: 90px;
   justify-content: center;
   align-items: center;
@@ -332,11 +336,11 @@ body {
   background: linear-gradient(48deg, #CB11AB 8.29%, #481173 148.38%);
 }
 .header__breds .header__breds-child1 .wild img {
-  width: 220px;
+  width: 67%;
   height: 26px;
 }
 .header__breds .header__breds-child1 .avto-last img {
-  width: 220px;
+  width: 67% x;
   height: 26.26px;
 }
 .header__breds .header__breds-child1 a {
@@ -344,8 +348,51 @@ body {
 }
 
 @media screen and (max-width: 1400px) {
-  .container {
-    max-width: 1200px;
+  .header .container {
+    width: 100%;
+    max-width: 1180px;
     margin: 0% auto;
+  }
+  .header .header__container {
+    gap: 15px;
+  }
+  .header .header__container .header__logo .header__logo-logo img {
+    width: 140px;
+    height: 44px;
+  }
+  .header .header__container .header__logo .header__logo-button {
+    width: 52px;
+    height: 44px;
+  }
+  .header .header__container .header__logo .header__logo-button a {
+    display: none;
+  }
+  .header .header__container .header__search {
+    width: 482px;
+    height: 44px;
+  }
+  .header .header__breds .header__breds-child section {
+    height: 50px;
+  }
+  .header .header__breds .header__breds-child .ozon img {
+    height: 18px;
+  }
+  .header .header__breds .header__breds-child .avtodog img {
+    height: 34px;
+  }
+  .header .header__breds .header__breds-child .emax img {
+    height: 20px;
+  }
+  .header .header__breds .header__breds-child .avtopolter img {
+    height: 30px;
+  }
+  .header .header__breds .header__breds-child1 .wild img {
+    height: 16px;
+  }
+  .header .header__breds .header__breds-child1 .avto-last img {
+    height: 16px;
+  }
+  .header .header__breds .header__breds-child1 section {
+    height: 50px;
   }
 }/*# sourceMappingURL=style.css.map */
