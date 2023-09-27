@@ -29,6 +29,9 @@ body {
   gap: 30px;
   align-items: center;
 }
+.header__container .header__logo .header__logo-logo i {
+  display: none;
+}
 .header__container .header__logo .header__logo-button {
   display: flex;
   width: 180px;
@@ -197,6 +200,12 @@ body {
   margin-top: 20px;
   width: 100%;
 }
+.glavniy .glavniy__nazad {
+  display: none;
+}
+.glavniy .glavniy__nazad a {
+  text-decoration: none;
+}
 .glavniy .glavniy__st {
   display: flex;
 }
@@ -231,6 +240,7 @@ body {
 .about {
   display: flex;
   gap: 30px;
+  flex-direction: row-reverse;
 }
 .about .about__page {
   display: flex;
@@ -471,5 +481,84 @@ body {
   .header .header__breds .header__breds-child1 section {
     width: 210px;
     height: 50px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .header .container {
+    width: 100%;
+    max-width: 700px;
+    margin: 0% auto;
+  }
+  .header .header__container .header__search {
+    width: 450px;
+  }
+  .header .header__breds {
+    display: none;
+  }
+  .header .header__menu {
+    display: none;
+  }
+  .header .header__main .header__main-menu {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .header .header__main .header__main-button {
+    display: none;
+  }
+  .header .header__main .header__main-contact {
+    display: none;
+  }
+  .glavniy .glavniy__st {
+    display: none;
+  }
+  .about {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+  }
+  .about .about__img {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 568px) {
+  .header .container {
+    width: 100%;
+    max-width: 508px;
+    margin: 0% auto;
+  }
+  .header .header__container .header__search {
+    display: none;
+  }
+  .header .header__container .header__logo .header__logo-logo {
+    width: 508px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header .header__container .header__logo .header__logo-logo i {
+    display: block;
+    width: 24px;
+    font-size: 1.8rem;
+    color: #F56E1E;
+  }
+  .header .header__container .header__logo .header__logo-button {
+    display: none;
+  }
+  .header__main {
+    display: none;
+  }
+  .glavniy .glavniy__nazad {
+    display: block;
+  }
+  .glavniy section {
+    width: 223px;
+  }
+}
+@media screen and (max-width: 375px) {
+  header .conatiner {
+    width: 100%;
+    max-width: 345px;
+    margin: 0% auto;
   }
 }/*# sourceMappingURL=style.css.map */

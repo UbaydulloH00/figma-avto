@@ -23,6 +23,11 @@ body{
         display: flex;
         gap: 30px;
         align-items: center;
+        .header__logo-logo{
+            i{
+                display: none;
+            }
+        }
         .header__logo-button{
             display: flex;
             width: 180px;
@@ -200,6 +205,12 @@ body{
 .glavniy {
     margin-top: 20px;
     width: 100%;
+    .glavniy__nazad{
+        display: none;
+        a{
+            text-decoration: none;
+        }
+    }
     .glavniy__st{
         display: flex;
     }
@@ -237,6 +248,7 @@ body{
 .about{
     display: flex;
     gap: 30px;
+    flex-direction: row-reverse;
     
     .about__page{
         display: flex;
@@ -554,5 +566,109 @@ body{
            }
         }
         
+    }
+}
+@media screen and (max-width:768px) {
+  
+    .header{
+        .container{
+            width: 100%;
+            max-width: 700px;
+            margin: 0% auto;
+        }
+        .header__container{
+            // justify-content: space-around;
+            .header__search{
+                width: 450px;
+            }
+        }
+        .header__breds{
+            display: none;
+        }
+        .header__menu{
+            display: none;
+        }
+        .header__main{
+            .header__main-menu{
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+            }
+            .header__main-button{
+                display: none;
+            }
+            .header__main-contact{
+                display: none;
+            }
+            
+        }
+       
+    }
+    .glavniy{
+        .glavniy__st{
+            display: none;
+        }
+    }
+    .about{
+        .about__img{
+          width: 90%;
+        }
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row-reverse;
+    }
+}
+@media screen and (max-width:568px) {
+    .header{
+        .container{
+            width: 100%;
+            max-width: 508px;
+            margin: 0% auto;
+        }
+        .header__container{
+            .header__search{
+                display: none;
+            }
+            .header__logo{
+                
+                .header__logo-logo{
+                    width: 508px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                    i{
+                        display: block;
+                        width: 24px;
+                        font-size: 1.8rem;
+                        color:#F56E1E;
+                    }
+                    
+                }
+                .header__logo-button{
+                   display: none;
+                }
+            }
+        }
+    }
+    .header__main{
+        display: none;
+    }
+    .glavniy{
+        .glavniy__nazad{
+            display:block;
+        }
+        section{
+            width: 223px;
+        }
+    }
+}
+@media screen and (max-width:375px) {
+    header{
+        .conatiner{
+            width: 100%;
+            max-width: 345px;
+            margin: 0% auto;
+        }
     }
 }
